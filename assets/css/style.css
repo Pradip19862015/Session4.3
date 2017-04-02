@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */ 
+.mainContainer{ 
+	text-align:center;
+	width:500px; 
+	margin:0px auto; 
+}
+.box1 { 
+   background: #2eb34a;  
+   padding:40px; 
+   color:#fff;
+   font-size:20px;
+   display:inline-block;
+   transition-property: background, border-radius;
+   transition-duration: 2s;
+   transition-timing-function: linear;
+} 
+.box1:hover {
+  cursor:pointer; 
+  background: #ff7b29;
+  border-radius: 50%;
+}
+ 
